@@ -4,7 +4,7 @@
 sudo opkg install libmicrohttpd-dev ffmpeg-dev git
 
 # Make the /usr/local directory incase it is absent
-mkdir -p /usr/local
+sudo mkdir -p /usr/local
 
 # Get the motion source from GitHub
 git clone https://github.com/Motion-Project/motion.git
